@@ -8,7 +8,7 @@
 
 ---
 
-## 🔍 Metodologia (Passo a Passo)
+## Metodologia (Passo a Passo)
 
 1. **Resolução de DNS:** Utilize o comando `host target.edu` para identificar o IP do servidor web principal (`195.130.xx.xx`).
 2. **Identificação de Infraestrutura (ASN):** Através do Shodan, identifiquei que o IP pertence ao **AS-XXXX** (Rede Acadêmica Educacional).
@@ -18,13 +18,13 @@
 
 ---
 
-## 🎯 Alvo Crítico Identificado: 195.130.xx.xx
+## Alvo Crítico Identificado: 195.130.xx.xx
 
 **Fonte:** Shodan
-**Status:** 🚨 Altamente Vulnerável
+**Status:** Altamente Vulnerável
 **Serviço:** Apache httpd 2.4.18 (Ubuntu)
 
-### ⚠️ Análise de Risco
+### Análise de Risco
 O servidor está rodando uma versão obsoleta do Apache (2.4.18), provavelmente em um sistema operacional legado (Ubuntu 16.04 EOL).
 
 > [!CAUTION]
@@ -35,12 +35,12 @@ O servidor está rodando uma versão obsoleta do Apache (2.4.18), provavelmente 
 
 ### Evidência Visual
 *(Screenshot anonimizada do Banner Grabbing via Shodan)*
-![Evidência Shodan Anonimizada](./images/evidence-shodan-blurred.png)
+![Evidência do Shodan](./images/evidence-shodan-blurred.png)
 *(Nota: Certifique-se de borrar o IP real na imagem antes do upload)*
 
 ---
 
-## 💣 Tabela de Exploits Potenciais (Searchsploit)
+## Tabela de Exploits Potenciais (Searchsploit)
 
 Abaixo estão os exploits disponíveis publicamente para a versão identificada, demonstrando o risco teórico.
 
@@ -53,7 +53,7 @@ Abaixo estão os exploits disponíveis publicamente para a versão identificada,
 
 ---
 
-## 🗺️ Mapeamento MITRE ATT&CK (Fase de Reconhecimento)
+## Mapeamento MITRE ATT&CK (Fase de Reconhecimento)
 
 Abaixo estão as técnicas confirmadas durante a análise passiva do alvo:
 
@@ -65,7 +65,7 @@ Abaixo estão as técnicas confirmadas durante a análise passiva do alvo:
 
 ---
 
-## 🛡️ Defesa Sugerida (Blue Team Perspective)
+## Defesa Sugerida (Blue Team Perspective)
 
 > [!TIP]
 > **Estratégias de Mitigação e Detecção**
