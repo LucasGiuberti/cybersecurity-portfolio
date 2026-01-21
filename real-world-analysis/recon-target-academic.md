@@ -35,7 +35,7 @@ O servidor está rodando uma versão obsoleta do Apache (2.4.18), provavelmente 
 
 ### Evidência Visual
 *(Screenshot anonimizada do Banner Grabbing via Shodan)*
-![Evidência Shodan Anonimizada](./images/evidence-shodan-blurred.png)
+![Evidência Shodan Anonimizada](./images/evideevidence-shodan-blurred.png)
 *(Nota: Certifique-se de borrar o IP real na imagem antes do upload)*
 
 ---
